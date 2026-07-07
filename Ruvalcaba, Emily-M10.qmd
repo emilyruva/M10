@@ -1,0 +1,68 @@
+---
+project:
+  type: website
+
+website:
+  title: "My Professional Portfolio"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Dashboard
+      - href: projects.qmd
+        text: Projects
+      - href: shiny_apps.qmd
+        text: Shiny Apps
+      - href: shiny_live.qmd
+        text: Shinylive
+      - href: slides.qmd
+        text: Presentation
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+---
+
+---
+title: "Home"
+---
+
+# Welcome to my Portfolio
+
+## About Me
+I am a Senior Cal Poly Pomona student majoring in marketing and throughout the course IBM 3202, I have focused on data analytics, visualization, and business insights.  
+My goal is to develop strong technical and analytical skills to work in Marketing roles that require data-driven research and insight in order to make knowledgable buisness decisions.
+
+---
+
+## Career Objective
+To pursue a career in marketing analytics where I can apply data storytelling, visualization, and business analyzing tools.
+
+---
+
+## Skills aquired
+- Data Visualization 
+- Quarto Reporting
+- Microsoft Excel
+-Microsoft Office
+- Basic Web Publishing
+
+---
+
+## Education
+- California Polytechic University, Pomona 2024-2027
+- Marketing Management, Buisness Administration
+
+---
+
+## Profile Photo
+::: {.text-center}
+
+![](images/profile.jpg){width=250px}
+
+:::
+
+

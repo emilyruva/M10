@@ -1,0 +1,96 @@
+---
+title: "Dashboard"
+author: "Emily Ruvalcaba"
+format:
+  dashboard:
+    orientation: rows
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+library(tidyverse)
+library(nycflights13)
+```
+
+# NYC Flights Dashboard
+
+This dashboard presents a visual summary of the **NYC Flights 2013** dataset. The visualizations demonstrate techniques learned throughout this course using this package specifically, which includes data exploration, summarization, and visualization using **ggplot2**. Through this data set, i have learned a lot about not only data visualization, but on how to properly interpret and create such detailed charts and illustrations.
+
+## Row
+
+### Flights by Airline
+
+```{r}
+flights %>%
+  count(carrier) %>%
+  ggplot(aes(x = reorder(carrier, n), y = n, fill = carrier)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  labs(
+    title = "Number of Flights by Airline",
+    x = "Airline Carrier",
+    y = "Flights"
+  ) +
+  theme_minimal()
+```
+
+### Average Departure Delay
+
+```{r}
+flights %>%
+  group_by(carrier) %>%
+  summarise(avg_delay = mean(dep_delay, na.rm = TRUE)) %>%
+  ggplot(aes(x = reorder(carrier, avg_delay),
+             y = avg_delay,
+             fill = carrier)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  labs(
+    title = "Average Departure Delay",
+    x = "Airline Carrier",
+    y = "Average Delay (Minutes)"
+  ) +
+  theme_minimal()
+```
+
+## Row
+
+### Flights by Month
+
+```{r}
+flights %>%
+  count(month) %>%
+  ggplot(aes(x = factor(month), y = n)) +
+  geom_col(fill = "steelblue") +
+  labs(
+    title = "Flights by Month",
+    x = "Month",
+    y = "Number of Flights"
+  ) +
+  theme_minimal()
+```
+
+### Average Air Time by Month
+
+```{r}
+flights %>%
+  group_by(month) %>%
+  summarise(avg_air_time = mean(air_time, na.rm = TRUE)) %>%
+  ggplot(aes(x = factor(month), y = avg_air_time)) +
+  geom_line(group = 1, color = "darkred", linewidth = 1) +
+  geom_point(size = 3, color = "darkred") +
+  labs(
+    title = "Average Air Time by Month",
+    x = "Month",
+    y = "Average Air Time (Minutes)"
+  ) +
+  theme_minimal()
+```
+
+## Row
+
+### Dashboard Summary
+
+This dashboard illustrates things taht i have learned through the **NYC Flights 2013** dataset to demonstrate data visualization and dashboard design with Quarto. The charts highlight flight activity by airline, compare average departure delays, display monthly flight volume, and summarize average air time throughout the year. Dashboards like this provide an effective way to communicate insights and support data-driven decision-making. Additionally, data like the one provided in this package have allowed me to continue learning and growing as a very new Quarto and Rstudio user.

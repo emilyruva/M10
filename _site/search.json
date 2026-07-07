@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "shiny_live.html",
+    "href": "shiny_live.html",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Shiny live is a newer way to create and share shiny applications without requiring a dedicated R server. This is unique because unlike older Shiny applications, shinly live runs entirely within the users web browser using WebAssembly. This allows the users to interact with Shiny applications without having to also install R or connecting to a server.\nOne additional postive thing to add, is that Shiny ive makes is easy to publish and distribute interactice applications because the app concists of files that are static and can be hosted on websites that are easily accesible such at GitHub, Quarto Pub, or Netlify."
+  },
+  {
+    "objectID": "shiny_live.html#understanding-shiny-live",
+    "href": "shiny_live.html#understanding-shiny-live",
+    "title": "Essay on Shinylive",
+    "section": "",
+    "text": "Shiny live is a newer way to create and share shiny applications without requiring a dedicated R server. This is unique because unlike older Shiny applications, shinly live runs entirely within the users web browser using WebAssembly. This allows the users to interact with Shiny applications without having to also install R or connecting to a server.\nOne additional postive thing to add, is that Shiny ive makes is easy to publish and distribute interactice applications because the app concists of files that are static and can be hosted on websites that are easily accesible such at GitHub, Quarto Pub, or Netlify."
+  },
+  {
+    "objectID": "shiny_live.html#how-it-works",
+    "href": "shiny_live.html#how-it-works",
+    "title": "Essay on Shinylive",
+    "section": "How it Works",
+    "text": "How it Works\nShinylive converts an R Shiny application into static web files that run directly in the browser. When a user opens the application, the browser loads both the interface and the R runtime. All calculations and updates occur locally on the user’s device rather than on a remote server.\nThis serverless approach simplifies deployment while maintaining many of the interactive features that make Shiny popular."
+  },
+  {
+    "objectID": "shiny_live.html#key-differences-from-traditional-shiny",
+    "href": "shiny_live.html#key-differences-from-traditional-shiny",
+    "title": "Essay on Shinylive",
+    "section": "Key Differences from traditional Shiny",
+    "text": "Key Differences from traditional Shiny\nAlthough both technologies are used to build interactive web applications with R, they differ in how they execute code and how they are deployed.\n\n\n\n\nFeature\n\n\nTraditional Shiny\n\n\nShinylive\n\n\n\n\n\n\nExecution\n\n\nRuns R code on a server\n\n\nRuns R code in the user’s web browser\n\n\n\n\nServer Required\n\n\nYes\n\n\nNo\n\n\n\n\nInternet Connection\n\n\nTypically required to connect to the server\n\n\nCan run as static web content once loaded\n\n\n\n\nDeployment\n\n\nRequires Shiny Server, Posit Connect, or another hosting service\n\n\nCan be hosted on GitHub Pages, Quarto Pub, or Netlify\n\n\n\n\nMaintenance\n\n\nServer must be maintained and updated\n\n\nVery little maintenance after publishing\n\n\n\n\nBest For\n\n\nLarge, complex applications with databases and authentication\n\n\nEducational projects, portfolios, and lightweight interactive apps"
+  },
+  {
+    "objectID": "shiny_live.html#other-advantages",
+    "href": "shiny_live.html#other-advantages",
+    "title": "Essay on Shinylive",
+    "section": "Other Advantages",
+    "text": "Other Advantages\nShinylive offers several important benefits:\n\nNo server is required to run the application.\nEasy to publish using static website hosting services.\nLower hosting costs because there is no server infrastructure.\nSimple deployment for personal websites and portfolios.\nFaster setup for small and medium-sized applications.\nExcellent for educational projects and demonstrations."
+  },
+  {
+    "objectID": "shiny_live.html#when-can-you-use-it",
+    "href": "shiny_live.html#when-can-you-use-it",
+    "title": "Essay on Shinylive",
+    "section": "When can you use it?",
+    "text": "When can you use it?\nShiny live is a good choice when\n\ncreating educational illustrations\nbuilding portfolios\npublishing assignments\nsharing reports\ndeveloping dashboards\n\nTraditional Shiny remains the better option when applications require large datasets, database connections, user authentication, or extensive server-side processing."
+  },
+  {
+    "objectID": "shiny_live.html#conclusion",
+    "href": "shiny_live.html#conclusion",
+    "title": "Essay on Shinylive",
+    "section": "Conclusion",
+    "text": "Conclusion\nShiny live has extended the capacities of Shiny through its multiple new additons. This makes it an excellent tool for students, educators, and analysts who are seeking for a place to publish this projects in a way that is quick and efficient. It is accesible and a cost effective option for both educational and profesional works."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home Page",
+    "section": "",
+    "text": "I am a Senior Cal Poly Pomona student majoring in marketing and throughout the course IBM 3202, I have focused on data analytics, visualization, and business insights.\nMy goal is to develop strong technical and analytical skills to work in Marketing roles that require data-driven research and insight in order to make knowledgable buisness decisions.\n\n\n\n\nTo pursue a career in marketing analytics where I can apply data storytelling, visualization, and business analyzing tools.\n\n\n\n\n\nData Visualization\nQuarto Reporting\nMicrosoft Excel -Microsoft Office\nBasic Web Publishing\n\n\n\n\n\n\nCalifornia Polytechic University, Pomona 2024-2027\nMarketing Management, Buisness Administration"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home Page",
+    "section": "",
+    "text": "I am a Senior Cal Poly Pomona student majoring in marketing and throughout the course IBM 3202, I have focused on data analytics, visualization, and business insights.\nMy goal is to develop strong technical and analytical skills to work in Marketing roles that require data-driven research and insight in order to make knowledgable buisness decisions."
+  },
+  {
+    "objectID": "index.html#career-objective",
+    "href": "index.html#career-objective",
+    "title": "Home Page",
+    "section": "",
+    "text": "To pursue a career in marketing analytics where I can apply data storytelling, visualization, and business analyzing tools."
+  },
+  {
+    "objectID": "index.html#skills-aquired",
+    "href": "index.html#skills-aquired",
+    "title": "Home Page",
+    "section": "",
+    "text": "Data Visualization\nQuarto Reporting\nMicrosoft Excel -Microsoft Office\nBasic Web Publishing"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home Page",
+    "section": "",
+    "text": "California Polytechic University, Pomona 2024-2027\nMarketing Management, Buisness Administration"
+  },
+  {
+    "objectID": "shiny_apps.html",
+    "href": "shiny_apps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Creates interactive dashboards and web applications.\nAllows users to explore data without writing R code.\nUpdates graphs and tables instantly when user inputs change.\nIntegrates seamlessly with packages such as ggplot2, dplyr, and plotly.\nMakes it easier to communicate insights to non-technical audiences.\n\n\n\n\n\n\n\n\nUser Interface\nServer\n\nThe User Interface defines what users see on the webpage. It includes,\n\nTitles\nButtons\nSliders\nDrop-down menus\nText\nTables\nCharts\n\nEvery Shiny application contains three essential parts:\n\nA User Interface (UI)\nA Server function\nA command that launches the application using shinyApp(ui, server)\n\nThese components work together to create an interactive web application that overall, are beneficial for data analysis and further, visualization for both the user and people interacting with the web application.\n\n\n\n\nShiny has a few advantages, some of them include;\n\nbeing easy to use using R\nsupports interactive visualizations\nthe ability to intergrate with many other packages\ncan be developed for others to access and utilize\nexcellent for dashboard creation and necessary buisiness functions\n\n\n\n\nOverall, Shiny is a very powerful frame work in building web applications using R. It is special because of its ability to creat `e interactice applications and transforming digital data and reports into something legibul, trustworthy, and insightful. Learning Shiny has been beneficial to me because it has given me the skills of better communication, data based decisions, and analytic thinking."
+  },
+  {
+    "objectID": "shiny_apps.html#why-shiny",
+    "href": "shiny_apps.html#why-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Creates interactive dashboards and web applications.\nAllows users to explore data without writing R code.\nUpdates graphs and tables instantly when user inputs change.\nIntegrates seamlessly with packages such as ggplot2, dplyr, and plotly.\nMakes it easier to communicate insights to non-technical audiences."
+  },
+  {
+    "objectID": "shiny_apps.html#how-does-shiny-work",
+    "href": "shiny_apps.html#how-does-shiny-work",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "User Interface\nServer\n\nThe User Interface defines what users see on the webpage. It includes,\n\nTitles\nButtons\nSliders\nDrop-down menus\nText\nTables\nCharts\n\nEvery Shiny application contains three essential parts:\n\nA User Interface (UI)\nA Server function\nA command that launches the application using shinyApp(ui, server)\n\nThese components work together to create an interactive web application that overall, are beneficial for data analysis and further, visualization for both the user and people interacting with the web application."
+  },
+  {
+    "objectID": "shiny_apps.html#advantages-of-shiny",
+    "href": "shiny_apps.html#advantages-of-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny has a few advantages, some of them include;\n\nbeing easy to use using R\nsupports interactive visualizations\nthe ability to intergrate with many other packages\ncan be developed for others to access and utilize\nexcellent for dashboard creation and necessary buisiness functions"
+  },
+  {
+    "objectID": "shiny_apps.html#to-conclude",
+    "href": "shiny_apps.html#to-conclude",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Overall, Shiny is a very powerful frame work in building web applications using R. It is special because of its ability to creat `e interactice applications and transforming digital data and reports into something legibul, trustworthy, and insightful. Learning Shiny has been beneficial to me because it has given me the skills of better communication, data based decisions, and analytic thinking."
+  },
+  {
+    "objectID": "Ruvalcaba, Emily-M10.html",
+    "href": "Ruvalcaba, Emily-M10.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am a Senior Cal Poly Pomona student majoring in marketing and throughout the course IBM 3202, I have focused on data analytics, visualization, and business insights.\nMy goal is to develop strong technical and analytical skills to work in Marketing roles that require data-driven research and insight in order to make knowledgable buisness decisions.\n\n\n\n\nTo pursue a career in marketing analytics where I can apply data storytelling, visualization, and business analyzing tools.\n\n\n\n\n\nData Visualization\nQuarto Reporting\nMicrosoft Excel -Microsoft Office\nBasic Web Publishing\n\n\n\n\n\n\nCalifornia Polytechic University, Pomona 2024-2027\nMarketing Management, Buisness Administration"
+  },
+  {
+    "objectID": "Ruvalcaba, Emily-M10.html#about-me",
+    "href": "Ruvalcaba, Emily-M10.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "I am a Senior Cal Poly Pomona student majoring in marketing and throughout the course IBM 3202, I have focused on data analytics, visualization, and business insights.\nMy goal is to develop strong technical and analytical skills to work in Marketing roles that require data-driven research and insight in order to make knowledgable buisness decisions."
+  },
+  {
+    "objectID": "Ruvalcaba, Emily-M10.html#career-objective",
+    "href": "Ruvalcaba, Emily-M10.html#career-objective",
+    "title": "Home",
+    "section": "",
+    "text": "To pursue a career in marketing analytics where I can apply data storytelling, visualization, and business analyzing tools."
+  },
+  {
+    "objectID": "Ruvalcaba, Emily-M10.html#skills-aquired",
+    "href": "Ruvalcaba, Emily-M10.html#skills-aquired",
+    "title": "Home",
+    "section": "",
+    "text": "Data Visualization\nQuarto Reporting\nMicrosoft Excel -Microsoft Office\nBasic Web Publishing"
+  },
+  {
+    "objectID": "Ruvalcaba, Emily-M10.html#education",
+    "href": "Ruvalcaba, Emily-M10.html#education",
+    "title": "Home",
+    "section": "",
+    "text": "California Polytechic University, Pomona 2024-2027\nMarketing Management, Buisness Administration"
+  }
+]

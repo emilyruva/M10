@@ -1,0 +1,94 @@
+---
+title: "Essay on Shinylive"
+Author: "Emily Ruvalcaba"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+---
+
+## Understanding Shiny Live
+
+  Shiny live is a newer way to create and share shiny applications without requiring a dedicated R server. This is unique because unlike older Shiny applications, shinly live runs entirely within the users web browser using WebAssembly. This allows the users to interact with Shiny applications without having to also install R or connecting to a server. 
+  
+  One additional postive thing to add, is that Shiny ive makes is easy to publish and distribute interactice applications because the app concists of files that are static and can be hosted on websites that are easily accesible such at GitHub, Quarto Pub, or Netlify.
+  
+## How it Works
+
+  Shinylive converts an R Shiny application into static web files that run directly in the browser. When a user opens the application, the browser loads both the interface and the R runtime. All calculations and updates occur locally on the user's device rather than on a remote server.
+
+This serverless approach simplifies deployment while maintaining many of the interactive features that make Shiny popular.
+
+## Key Differences from traditional Shiny
+
+Although both technologies are used to build interactive web applications with R, they differ in how they execute code and how they are deployed.
+
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Traditional Shiny</th>
+<th>Shinylive</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Execution</strong></td>
+<td>Runs R code on a server</td>
+<td>Runs R code in the user's web browser</td>
+</tr>
+<tr>
+<td><strong>Server Required</strong></td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>Internet Connection</strong></td>
+<td>Typically required to connect to the server</td>
+<td>Can run as static web content once loaded</td>
+</tr>
+<tr>
+<td><strong>Deployment</strong></td>
+<td>Requires Shiny Server, Posit Connect, or another hosting service</td>
+<td>Can be hosted on GitHub Pages, Quarto Pub, or Netlify</td>
+</tr>
+<tr>
+<td><strong>Maintenance</strong></td>
+<td>Server must be maintained and updated</td>
+<td>Very little maintenance after publishing</td>
+</tr>
+<tr>
+<td><strong>Best For</strong></td>
+<td>Large, complex applications with databases and authentication</td>
+<td>Educational projects, portfolios, and lightweight interactive apps</td>
+</tr>
+</tbody>
+</table>
+
+## Other Advantages
+
+Shinylive offers several important benefits:
+
+- No server is required to run the application.
+- Easy to publish using static website hosting services.
+- Lower hosting costs because there is no server infrastructure.
+- Simple deployment for personal websites and portfolios.
+- Faster setup for small and medium-sized applications.
+- Excellent for educational projects and demonstrations.
+
+## When can you use it?
+
+Shiny live is a good choice when
+
+- creating educational illustrations
+- building portfolios
+- publishing assignments
+- sharing reports
+- developing dashboards
+
+Traditional Shiny remains the better option when applications require large datasets, database connections, user authentication, or extensive server-side processing.
+
+## Conclusion
+
+  Shiny live has extended the capacities of Shiny through its multiple new additons. This makes it an excellent tool for students, educators, and analysts who are seeking for a place to publish this projects in a way that is quick and efficient. It is accesible and a cost effective option for both educational and profesional works.

@@ -1,0 +1,17 @@
+{
+  "hash": "31e1307432b9f4054d090310cf325038",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Dashboard\"\nauthor: \"Emily Ruvalcaba\"\nformat:\n  dashboard:\n    orientation: rows\nexecute:\n  warning: false\n  message: false\n---\n\n\n::: {.cell}\n\n:::\n\n\n# NYC Flights Dashboard\n\nThis dashboard presents a visual summary of the **NYC Flights 2013** dataset. The visualizations demonstrate techniques learned throughout this course using this package specifically, which includes data exploration, summarization, and visualization using **ggplot2**. Through this data set, i have learned a lot about not only data visualization, but on how to properly interpret and create such detailed charts and illustrations.\n\n## Row\n\n### Flights by Airline\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-2-1.png){width=768}\n:::\n:::\n\n\n### Average Departure Delay\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-3-1.png){width=768}\n:::\n:::\n\n\n## Row\n\n### Flights by Month\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-4-1.png){width=768}\n:::\n:::\n\n\n### Average Air Time by Month\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](dashboard_files/figure-html/unnamed-chunk-5-1.png){width=768}\n:::\n:::\n\n\n## Row\n\n### Dashboard Summary\n\nThis dashboard illustrates things taht i have learned through the **NYC Flights 2013** dataset to demonstrate data visualization and dashboard design with Quarto. The charts highlight flight activity by airline, compare average departure delays, display monthly flight volume, and summarize average air time throughout the year. Dashboards like this provide an effective way to communicate insights and support data-driven decision-making. Additionally, data like the one provided in this package have allowed me to continue learning and growing as a very new Quarto and Rstudio user.\n",
+    "supporting": [
+      "dashboard_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -13,5 +13,17 @@
   },
   "shiny_live.qmd": {
     "shiny_live.html": "d64695a7"
+  },
+  "resume.qmd": {
+    "resume.html": "523e64e6"
+  },
+  "project.qmd": {
+    "project.html": "42f12e46"
+  },
+  "slides.qmd": {
+    "slides.html": "9925631f"
+  },
+  "projects.qmd": {
+    "projects.html": "d988b511"
   }
 }

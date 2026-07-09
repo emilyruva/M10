@@ -1,0 +1,48 @@
+---
+title: "Resume"
+format:
+  html:
+    theme: flatly
+    css: styles.css
+---
+
+
+Thank you for visiting my portfolio.
+
+You can download my resume below.
+
+📄 [Download My Resume](resume/Emily_Ruvalcaba_Resume.pdf)
+
+# Education
+
+| B.S. Marketing Mangement                             | 2027                          | College of Buisness Administration              | Cal Poly Pomona         |
+| ---------------------------------- | ----------------------------- | ------------------------------------ | ------------------- |  
+
+# Work Experience
+
+### [Marketing Administration Assistant], [Burns and Johnstons CPAs]  
+*[September 2024- September 2025]*
+
+- Manage front desk operations, including scheduling appointments, client check-ins, and processing document drop-offs and pick-ups.
+- Coordinate calendars and appointments for multiple accountants, ensuring efficient time management and client follow-ups.
+- Manage a high volume of incoming calls and emails, directing inquiries to appropriate departments and maintaining effective communication.
+
+---
+
+### [Beauty Advisor], [Ulta Beauty]  
+*[March 2026- Present]*
+
+- Advise customers with product selection and drive sales through customer purchases
+- Maintain store organization and consistently ensure products are cleaned and stocked
+- Engage with guests and assist with product questions and beauty expertise
+- Process transactions accurately and efficiently while supporting team goals to achieve sales targets
+
+---
+
+## Skills
+
+- Bilingual (English/Spanish) with strong communication and interpersonal skills
+- Proficient in Adobe Creative Suite (Photoshop, InDesign, Illustrator)
+- Exceptional customer service and client relations
+- Knowledge of marketing principles and social media management
+

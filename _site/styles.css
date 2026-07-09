@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap');
+/* Overall website style */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f7f5f2;
+  color: #2f3542;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #3d405b;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #3d405b !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #f7f5f2 !important;
+  font-family: "Avenir", sans-serif;
+}
+
+/* Links */
+a {
+  color: #6d6875;
+}
+
+a:hover {
+  color: #b5838d;
+}
+
+/* Cards / sections */
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+.btn {
+  border-radius: 25px;
+}

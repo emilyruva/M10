@@ -1,0 +1,18 @@
+---
+title: "Presentation"
+format: revealjs
+---
+
+# Marketing Analytics Portfolio
+
+---
+
+# Featured Projects
+
+---
+
+# Technical Skills
+
+---
+
+# Thank You

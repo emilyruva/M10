@@ -1,70 +1,87 @@
----
-project:
-  type: website
-Author: "Emily Ruvalcaba"
-
-website:
-  title: "My Professional Portfolio"
-
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: dashboard.qmd
-        text: Dashboard
-      - href: projects.qmd
-        text: Projects
-      - href: shiny_apps.qmd
-        text: Shiny Apps
-      - href: shiny_live.qmd
-        text: Shinylive
-      - href: slides.qmd
-        text: Presentation
-
-format:
-  html:
-    theme: cosmo
-    toc: true
----
 
 ---
-title: "Home Page"
+title: "Home"
 ---
 
-# Welcome to my Portfolio
+# Emily Ruvalcaba
+
+![](images/profile.jpg){width=250 style="border-radius:50%;"}
+
+## Marketing Student | Data Analytics | Business Strategy
+
+Welcome to my professional portfolio! I am a senior at California State Polytechnic University, Pomona, pursuing a Bachelor of Science in Business Administration with an emphasis in Marketing Management. My academic journey has allowed me to combine creativity with analytical thinking while developing technical skills in data analytics, visualization, and digital marketing.
+
+This website showcases projects completed throughout my coursework and highlights my growth in marketing analytics, business intelligence, and data-driven decision making.
+
+---
 
 ## About Me
-I am a Senior Cal Poly Pomona student majoring in marketing and throughout the course IBM 3202, I have focused on data analytics, visualization, and business insights.  
-My goal is to develop strong technical and analytical skills to work in Marketing roles that require data-driven research and insight in order to make knowledgable buisness decisions.
+
+My educational journey has been shaped by diverse experiences. Before transferring to Cal Poly Pomona, I studied Architecture for two years at the University of San Francisco, where I developed a strong foundation in design thinking, creativity, and problem solving.
+
+In Fall 2025, I had the opportunity to study abroad in Rome, Italy. Living and studying in another country broadened my global perspective, strengthened my adaptability, and reinforced my appreciation for different cultures and approaches to business.
+
+As I begin my final year of undergraduate study, I am excited to continue developing my analytical, technical, and creative skills while preparing for a career in marketing and business analytics.
 
 ---
 
 ## Career Objective
-To pursue a career in marketing analytics where I can apply data storytelling, visualization, and business analyzing tools.
+
+My goal is to build a career in marketing where I can combine creativity with data-driven decision making. I am particularly interested in marketing analytics, consumer insights, digital marketing, and business strategy.
+
+Long-term, I hope to contribute to organizations that value innovation, collaboration, and diversity while continuing to grow professionally. I also aspire to one day launch my own business and apply both my creative vision and analytical expertise as an entrepreneur.
 
 ---
 
-## Skills aquired
-- Data Visualization 
-- Quarto Reporting
+## Technical Skills
+
+- R Programming
+- Quarto
+- GitHub
+- Google Analytics
+- Data Visualization
 - Microsoft Excel
--Microsoft Office
-- Basic Web Publishing
+- Microsoft Office Suite
+- Marketing Analytics
+- Business Reporting
+- Customer Service
+- Event Planning
 
 ---
 
 ## Education
-- California Polytechic University, Pomona 2024-2027
-- Marketing Management, Buisness Administration
+
+### California State Polytechnic University, Pomona
+
+**Bachelor of Science in Business Administration**  
+Marketing Management  
+Graduation: May 2027
+
+### University of San Francisco
+
+Architecture Studies (Completed two years prior to transferring)
+
+### AIFS Study Abroad
+
+Rome, Italy  
+Fall 2025
 
 ---
 
-## Profile Photo
-::: {.text-center}
+## Featured Portfolio
 
-![](images/profile.jpg){width=250px}
+Throughout this website you will find:
 
-:::
+- Marketing analytics projects
+- Interactive dashboards
+- Data visualizations created in R
+- Business presentations
+- Google Analytics coursework
+- Technical reports developed using Quarto
+
+Thank you for taking the time to explore my portfolio.
+---
+
 
 
 

@@ -2,20 +2,20 @@ project:
   type: website
 
 website:
-  title: "My Professional Portfolio"
-
+  title: "Emily Ruvalcaba"
   navbar:
     left:
-      - text: Home
-        href: index.qmd
-      - text: Dashboard
-        href: dashboard.qmd
-      - text: Shiny Apps
-        href: shiny_apps.qmd
-      - text: Shinylive
-        href: shiny_live.qmd
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume
+      - href: projects.qmd
+        text: Projects
+      - href: dashboard.qmd
+        text: Dashboard
 
 format:
   html:
-    theme: cosmo
-    toc: true
+    theme: flatly
+    css: styles.css
+    toc: false
